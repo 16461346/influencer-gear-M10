@@ -1,0 +1,70 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primary-btn button{
+    border: none;
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: white;
+    font-weight: bold;
+}
+header{
+    padding: 60px 120px;
+}
+main{
+    padding: 60px 120px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+}
+.menu img{
+    width: 29px;
+}
+.logo h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 1);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    padding-left: 34px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    margin-top: 80px;
+    padding-right: 33px;
+}
+.left-hero h3{
+    padding-top: 65px;
+    font-size: 52px;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 1);
+}
+.left-hero p{
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 20px;
+}
+.right-hero img{
+    width: 440px;
+}
